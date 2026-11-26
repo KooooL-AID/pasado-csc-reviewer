@@ -1,0 +1,17 @@
+{
+  "name": "pasado",
+  "version": "0.1.0",
+  "description": "Pasado — Personal reviewer for the Philippine Civil Service Examination Professional Level",
+  "type": "module",
+  "scripts": {
+    "dev": "python3 -m http.server 3000",
+    "dev:node": "npx serve . --listen 3000",
+    "build": "echo 'No build step needed — this is a pure ES module app. Run: npm run dev'"
+  },
+  "keywords": ["csc", "civil-service", "philippines", "reviewer", "exam-prep"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "devDependencies": {}
+}

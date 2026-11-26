@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: pasado-csc-reviewer
+    env: static
+    staticPublishPath: ./
+    pullRequestPreviewsEnabled: true
